@@ -1,6 +1,65 @@
 <?xml version='1.0' encoding='ASCII'?>
 <flow_graph>
-  <timestamp>Thu Jun 14 02:57:42 2012</timestamp>
+  <timestamp>Thu Jun 14 03:16:39 2012</timestamp>
+  <block>
+    <key>options</key>
+    <param>
+      <key>id</key>
+      <value>osmosdr_fmradio2</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>title</key>
+      <value>FM Radio #2</value>
+    </param>
+    <param>
+      <key>author</key>
+      <value>Alex Grinkov</value>
+    </param>
+    <param>
+      <key>description</key>
+      <value>FM receiver (mono)</value>
+    </param>
+    <param>
+      <key>window_size</key>
+      <value>1400, 1024</value>
+    </param>
+    <param>
+      <key>generate_options</key>
+      <value>wx_gui</value>
+    </param>
+    <param>
+      <key>category</key>
+      <value>Custom</value>
+    </param>
+    <param>
+      <key>run_options</key>
+      <value>prompt</value>
+    </param>
+    <param>
+      <key>run</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>max_nouts</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>realtime_scheduling</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(8, 8)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
   <block>
     <key>variable</key>
     <param>
@@ -206,61 +265,6 @@
     <param>
       <key>_coordinate</key>
       <value>(12, 280)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>variable_slider</key>
-    <param>
-      <key>id</key>
-      <value>rf_gain</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>label</key>
-      <value>RF Gain</value>
-    </param>
-    <param>
-      <key>value</key>
-      <value>20</value>
-    </param>
-    <param>
-      <key>min</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>max</key>
-      <value>100</value>
-    </param>
-    <param>
-      <key>num_steps</key>
-      <value>50</value>
-    </param>
-    <param>
-      <key>style</key>
-      <value>wx.SL_HORIZONTAL</value>
-    </param>
-    <param>
-      <key>converver</key>
-      <value>float_converter</value>
-    </param>
-    <param>
-      <key>grid_pos</key>
-      <value></value>
-    </param>
-    <param>
-      <key>notebook</key>
-      <value></value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(163, 281)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -763,58 +767,54 @@
     </param>
   </block>
   <block>
-    <key>options</key>
+    <key>variable_slider</key>
     <param>
       <key>id</key>
-      <value>osmosdr_fmradio2</value>
+      <value>rf_gain</value>
     </param>
     <param>
       <key>_enabled</key>
       <value>True</value>
     </param>
     <param>
-      <key>title</key>
-      <value>FM Radio #2</value>
+      <key>label</key>
+      <value>RF Gain</value>
     </param>
     <param>
-      <key>author</key>
-      <value>Alex Grinkov</value>
+      <key>value</key>
+      <value>20</value>
     </param>
     <param>
-      <key>description</key>
-      <value>FM receiver (mono)</value>
-    </param>
-    <param>
-      <key>window_size</key>
-      <value>1400, 1024</value>
-    </param>
-    <param>
-      <key>generate_options</key>
-      <value>wx_gui</value>
-    </param>
-    <param>
-      <key>category</key>
-      <value>Custom</value>
-    </param>
-    <param>
-      <key>run_options</key>
-      <value>prompt</value>
-    </param>
-    <param>
-      <key>run</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>max_nouts</key>
+      <key>min</key>
       <value>0</value>
     </param>
     <param>
-      <key>realtime_scheduling</key>
-      <value>1</value>
+      <key>max</key>
+      <value>50</value>
+    </param>
+    <param>
+      <key>num_steps</key>
+      <value>50</value>
+    </param>
+    <param>
+      <key>style</key>
+      <value>wx.SL_HORIZONTAL</value>
+    </param>
+    <param>
+      <key>converver</key>
+      <value>float_converter</value>
+    </param>
+    <param>
+      <key>grid_pos</key>
+      <value></value>
+    </param>
+    <param>
+      <key>notebook</key>
+      <value></value>
     </param>
     <param>
       <key>_coordinate</key>
-      <value>(8, 8)</value>
+      <value>(163, 279)</value>
     </param>
     <param>
       <key>_rotation</key>
