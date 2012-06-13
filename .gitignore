@@ -14,3 +14,5 @@
 # *.py modules in gnuradio-companion examples directory
 grc/*.py
 
+# Backup files
+*~
