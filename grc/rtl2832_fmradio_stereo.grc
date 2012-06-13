@@ -1,6 +1,65 @@
 <?xml version='1.0' encoding='ASCII'?>
 <flow_graph>
-  <timestamp>Wed Jun 13 14:43:59 2012</timestamp>
+  <timestamp>Wed Jun 13 20:26:34 2012</timestamp>
+  <block>
+    <key>options</key>
+    <param>
+      <key>id</key>
+      <value>rtl2832_fmradio_stereo</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>title</key>
+      <value>Stereo FM Radio</value>
+    </param>
+    <param>
+      <key>author</key>
+      <value>Alex Grinkov</value>
+    </param>
+    <param>
+      <key>description</key>
+      <value>FM receiver (stereo)</value>
+    </param>
+    <param>
+      <key>window_size</key>
+      <value>1400, 1024</value>
+    </param>
+    <param>
+      <key>generate_options</key>
+      <value>wx_gui</value>
+    </param>
+    <param>
+      <key>category</key>
+      <value>Custom</value>
+    </param>
+    <param>
+      <key>run_options</key>
+      <value>prompt</value>
+    </param>
+    <param>
+      <key>run</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>max_nouts</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>realtime_scheduling</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(8, 8)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
   <block>
     <key>variable</key>
     <param>
@@ -1288,7 +1347,7 @@
     </param>
     <param>
       <key>const</key>
-      <value>1.5</value>
+      <value>1.5*stereo</value>
     </param>
     <param>
       <key>vlen</key>
@@ -1304,58 +1363,42 @@
     </param>
   </block>
   <block>
-    <key>options</key>
+    <key>variable_check_box</key>
     <param>
       <key>id</key>
-      <value>rtl2832_fmradio_stereo</value>
+      <value>stereo</value>
     </param>
     <param>
       <key>_enabled</key>
       <value>True</value>
     </param>
     <param>
-      <key>title</key>
-      <value>Stereo FM Radio</value>
+      <key>label</key>
+      <value>Stereo</value>
     </param>
     <param>
-      <key>author</key>
-      <value>Alex Grinkov</value>
-    </param>
-    <param>
-      <key>description</key>
-      <value>FM receiver (stereo)</value>
-    </param>
-    <param>
-      <key>window_size</key>
-      <value>1400, 1024</value>
-    </param>
-    <param>
-      <key>generate_options</key>
-      <value>wx_gui</value>
-    </param>
-    <param>
-      <key>category</key>
-      <value>Custom</value>
-    </param>
-    <param>
-      <key>run_options</key>
-      <value>prompt</value>
-    </param>
-    <param>
-      <key>run</key>
+      <key>value</key>
       <value>True</value>
     </param>
     <param>
-      <key>max_nouts</key>
-      <value>0</value>
-    </param>
-    <param>
-      <key>realtime_scheduling</key>
+      <key>true</key>
       <value>1</value>
     </param>
     <param>
+      <key>false</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>grid_pos</key>
+      <value></value>
+    </param>
+    <param>
+      <key>notebook</key>
+      <value></value>
+    </param>
+    <param>
       <key>_coordinate</key>
-      <value>(8, 8)</value>
+      <value>(838, 698)</value>
     </param>
     <param>
       <key>_rotation</key>

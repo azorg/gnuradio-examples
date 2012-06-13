@@ -2,17 +2,21 @@
 *.slo
 *.lo
 *.o
+*.py[co]
 
-# Compiled Dynamic libraries
+# Compiled libraries
 *.so
-
-# Compiled Static libraries
 *.lai
 *.la
 *.a
 
+# Backup files
+*~
+.#*
+[#]*#
+*.sw[nop]
+*~
+
 # *.py modules in gnuradio-companion examples directory
 grc/*.py
 
-# Backup files
-*~
