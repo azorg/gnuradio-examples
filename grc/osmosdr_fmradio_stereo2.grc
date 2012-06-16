@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='ASCII'?>
 <flow_graph>
-  <timestamp>Thu Jun 14 03:14:46 2012</timestamp>
+  <timestamp>Sat Jun 16 18:24:39 2012</timestamp>
   <block>
     <key>options</key>
     <param>
@@ -888,37 +888,6 @@
     </param>
   </block>
   <block>
-    <key>gr_pll_refout_cc</key>
-    <param>
-      <key>id</key>
-      <value>gr_pll_refout_cc_0</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>w</key>
-      <value>0.001</value>
-    </param>
-    <param>
-      <key>max_freq</key>
-      <value>2*3.1415926*18900/dsp_samp_rate</value>
-    </param>
-    <param>
-      <key>min_freq</key>
-      <value>2*3.1415926*19100/dsp_samp_rate</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(281, 618)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
     <key>gr_multiply_xx</key>
     <param>
       <key>id</key>
@@ -1002,37 +971,6 @@
     <param>
       <key>_coordinate</key>
       <value>(454, 682)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>gr_multiply_const_vxx</key>
-    <param>
-      <key>id</key>
-      <value>gr_multiply_const_vxx_0</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>complex</value>
-    </param>
-    <param>
-      <key>const</key>
-      <value>1.5*stereo</value>
-    </param>
-    <param>
-      <key>vlen</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(686, 738)</value>
     </param>
     <param>
       <key>_rotation</key>
@@ -1353,6 +1291,68 @@
     <param>
       <key>_coordinate</key>
       <value>(163, 281)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>gr_pll_refout_cc</key>
+    <param>
+      <key>id</key>
+      <value>gr_pll_refout_cc_0</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>w</key>
+      <value>0.001</value>
+    </param>
+    <param>
+      <key>max_freq</key>
+      <value>2*3.1415926*19100/dsp_samp_rate</value>
+    </param>
+    <param>
+      <key>min_freq</key>
+      <value>2*3.1415926*18900/dsp_samp_rate</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(281, 618)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>gr_multiply_const_vxx</key>
+    <param>
+      <key>id</key>
+      <value>gr_multiply_const_vxx_0</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>complex</value>
+    </param>
+    <param>
+      <key>const</key>
+      <value>2*stereo</value>
+    </param>
+    <param>
+      <key>vlen</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(686, 738)</value>
     </param>
     <param>
       <key>_rotation</key>
