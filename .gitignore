@@ -20,3 +20,6 @@
 # *.py modules in gnuradio-companion examples directory
 grc/*.py
 
+# SVN
+.svn
+

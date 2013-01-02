@@ -1,6 +1,10 @@
 <?xml version='1.0' encoding='ASCII'?>
 <flow_graph>
+<<<<<<< HEAD
   <timestamp>Sun Dec 30 16:03:31 2012</timestamp>
+=======
+  <timestamp>Mon Jun 18 00:26:28 2012</timestamp>
+>>>>>>> 26621e9a2511402d9578bf5cfcdfe345e41076f8
   <block>
     <key>options</key>
     <param>
@@ -257,6 +261,40 @@
     </param>
   </block>
   <block>
+<<<<<<< HEAD
+=======
+    <key>gr_sub_xx</key>
+    <param>
+      <key>id</key>
+      <value>gr_sub_xx_0</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>float</value>
+    </param>
+    <param>
+      <key>vlen</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>num_inputs</key>
+      <value>2</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(1053, 211)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+>>>>>>> 26621e9a2511402d9578bf5cfcdfe345e41076f8
     <key>variable</key>
     <param>
       <key>id</key>
@@ -707,6 +745,40 @@
     </param>
   </block>
   <block>
+<<<<<<< HEAD
+=======
+    <key>gr_add_xx</key>
+    <param>
+      <key>id</key>
+      <value>gr_add_xx_0</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>float</value>
+    </param>
+    <param>
+      <key>num_inputs</key>
+      <value>2</value>
+    </param>
+    <param>
+      <key>vlen</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(1095, 56)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+>>>>>>> 26621e9a2511402d9578bf5cfcdfe345e41076f8
     <key>band_pass_filter</key>
     <param>
       <key>id</key>
@@ -942,6 +1014,56 @@
     </param>
   </block>
   <block>
+<<<<<<< HEAD
+=======
+    <key>blks2_fm_demod_cf</key>
+    <param>
+      <key>id</key>
+      <value>blks2_fm_demod_cf_0</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>chan_rate</key>
+      <value>samp_rate/10</value>
+    </param>
+    <param>
+      <key>audio_decim</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>deviation</key>
+      <value>75000</value>
+    </param>
+    <param>
+      <key>audio_pass</key>
+      <value>59000</value>
+    </param>
+    <param>
+      <key>audio_stop</key>
+      <value>61000</value>
+    </param>
+    <param>
+      <key>gain</key>
+      <value>1.0</value>
+    </param>
+    <param>
+      <key>tau</key>
+      <value>75e-6</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(517, 445)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+>>>>>>> 26621e9a2511402d9578bf5cfcdfe345e41076f8
     <key>gr_fir_filter_xxx</key>
     <param>
       <key>id</key>
@@ -1007,16 +1129,24 @@
       <value>0</value>
     </param>
     <param>
+<<<<<<< HEAD
       <key>gain_mode0</key>
       <value>0</value>
     </param>
     <param>
+=======
+>>>>>>> 26621e9a2511402d9578bf5cfcdfe345e41076f8
       <key>gain0</key>
       <value>rf_gain</value>
     </param>
     <param>
+<<<<<<< HEAD
       <key>if_gain0</key>
       <value>24</value>
+=======
+      <key>gain_mode0</key>
+      <value>0</value>
+>>>>>>> 26621e9a2511402d9578bf5cfcdfe345e41076f8
     </param>
     <param>
       <key>ant0</key>
@@ -1031,16 +1161,24 @@
       <value>0</value>
     </param>
     <param>
+<<<<<<< HEAD
       <key>gain_mode1</key>
       <value>0</value>
     </param>
     <param>
+=======
+>>>>>>> 26621e9a2511402d9578bf5cfcdfe345e41076f8
       <key>gain1</key>
       <value>0</value>
     </param>
     <param>
+<<<<<<< HEAD
       <key>if_gain1</key>
       <value>24</value>
+=======
+      <key>gain_mode1</key>
+      <value>0</value>
+>>>>>>> 26621e9a2511402d9578bf5cfcdfe345e41076f8
     </param>
     <param>
       <key>ant1</key>
@@ -1055,16 +1193,24 @@
       <value>0</value>
     </param>
     <param>
+<<<<<<< HEAD
       <key>gain_mode2</key>
       <value>0</value>
     </param>
     <param>
+=======
+>>>>>>> 26621e9a2511402d9578bf5cfcdfe345e41076f8
       <key>gain2</key>
       <value>0</value>
     </param>
     <param>
+<<<<<<< HEAD
       <key>if_gain2</key>
       <value>24</value>
+=======
+      <key>gain_mode2</key>
+      <value>0</value>
+>>>>>>> 26621e9a2511402d9578bf5cfcdfe345e41076f8
     </param>
     <param>
       <key>ant2</key>
@@ -1079,16 +1225,24 @@
       <value>0</value>
     </param>
     <param>
+<<<<<<< HEAD
       <key>gain_mode3</key>
       <value>0</value>
     </param>
     <param>
+=======
+>>>>>>> 26621e9a2511402d9578bf5cfcdfe345e41076f8
       <key>gain3</key>
       <value>0</value>
     </param>
     <param>
+<<<<<<< HEAD
       <key>if_gain3</key>
       <value>24</value>
+=======
+      <key>gain_mode3</key>
+      <value>0</value>
+>>>>>>> 26621e9a2511402d9578bf5cfcdfe345e41076f8
     </param>
     <param>
       <key>ant3</key>
@@ -1103,16 +1257,24 @@
       <value>0</value>
     </param>
     <param>
+<<<<<<< HEAD
       <key>gain_mode4</key>
       <value>0</value>
     </param>
     <param>
+=======
+>>>>>>> 26621e9a2511402d9578bf5cfcdfe345e41076f8
       <key>gain4</key>
       <value>0</value>
     </param>
     <param>
+<<<<<<< HEAD
       <key>if_gain4</key>
       <value>24</value>
+=======
+      <key>gain_mode4</key>
+      <value>0</value>
+>>>>>>> 26621e9a2511402d9578bf5cfcdfe345e41076f8
     </param>
     <param>
       <key>ant4</key>
@@ -1611,6 +1773,7 @@
     </param>
   </block>
   <block>
+<<<<<<< HEAD
     <key>blks2_rational_resampler_xxx</key>
     <param>
       <key>id</key>
@@ -1689,6 +1852,8 @@
     </param>
   </block>
   <block>
+=======
+>>>>>>> 26621e9a2511402d9578bf5cfcdfe345e41076f8
     <key>wxgui_fftsink2</key>
     <param>
       <key>id</key>
@@ -1696,7 +1861,11 @@
     </param>
     <param>
       <key>_enabled</key>
+<<<<<<< HEAD
       <value>False</value>
+=======
+      <value>True</value>
+>>>>>>> 26621e9a2511402d9578bf5cfcdfe345e41076f8
     </param>
     <param>
       <key>type</key>
@@ -1780,6 +1949,7 @@
     </param>
   </block>
   <block>
+<<<<<<< HEAD
     <key>blks2_fm_demod_cf</key>
     <param>
       <key>id</key>
@@ -1875,130 +2045,7 @@
     <param>
       <key>_coordinate</key>
       <value>(808, 150)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>gr_sub_xx</key>
-    <param>
-      <key>id</key>
-      <value>gr_sub_xx_0</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>float</value>
-    </param>
-    <param>
-      <key>vlen</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>num_inputs</key>
-      <value>2</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(1053, 211)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>gr_add_xx</key>
-    <param>
-      <key>id</key>
-      <value>gr_add_xx_0</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>float</value>
-    </param>
-    <param>
-      <key>num_inputs</key>
-      <value>2</value>
-    </param>
-    <param>
-      <key>vlen</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(1095, 56)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
-    <key>low_pass_filter</key>
-    <param>
-      <key>id</key>
-      <value>low_pass_filter_1_0</value>
-    </param>
-    <param>
-      <key>_enabled</key>
-      <value>True</value>
-    </param>
-    <param>
-      <key>type</key>
-      <value>fir_filter_fff</value>
-    </param>
-    <param>
-      <key>decim</key>
-      <value>2</value>
-    </param>
-    <param>
-      <key>interp</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>gain</key>
-      <value>1</value>
-    </param>
-    <param>
-      <key>samp_rate</key>
-      <value>dsp_rate</value>
-    </param>
-    <param>
-      <key>cutoff_freq</key>
-      <value>15000</value>
-    </param>
-    <param>
-      <key>width</key>
-      <value>1000</value>
-    </param>
-    <param>
-      <key>win</key>
-      <value>firdes.WIN_HAMMING</value>
-    </param>
-    <param>
-      <key>beta</key>
-      <value>6.76</value>
-    </param>
-    <param>
-      <key>_coordinate</key>
-      <value>(812, 4)</value>
-    </param>
-    <param>
-      <key>_rotation</key>
-      <value>0</value>
-    </param>
-  </block>
-  <block>
+=======
     <key>wxgui_waterfallsink2</key>
     <param>
       <key>id</key>
@@ -2075,6 +2122,336 @@
     <param>
       <key>_coordinate</key>
       <value>(1230, 570)</value>
+>>>>>>> 26621e9a2511402d9578bf5cfcdfe345e41076f8
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+<<<<<<< HEAD
+    <key>gr_sub_xx</key>
+    <param>
+      <key>id</key>
+      <value>gr_sub_xx_0</value>
+=======
+    <key>low_pass_filter</key>
+    <param>
+      <key>id</key>
+      <value>low_pass_filter_1_0</value>
+>>>>>>> 26621e9a2511402d9578bf5cfcdfe345e41076f8
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>type</key>
+<<<<<<< HEAD
+      <value>float</value>
+    </param>
+    <param>
+      <key>vlen</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>num_inputs</key>
+      <value>2</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(1053, 211)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>gr_add_xx</key>
+    <param>
+      <key>id</key>
+      <value>gr_add_xx_0</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>float</value>
+    </param>
+    <param>
+      <key>num_inputs</key>
+      <value>2</value>
+    </param>
+    <param>
+      <key>vlen</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(1095, 56)</value>
+=======
+      <value>fir_filter_fff</value>
+    </param>
+    <param>
+      <key>decim</key>
+      <value>2</value>
+    </param>
+    <param>
+      <key>interp</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>gain</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>samp_rate</key>
+      <value>dsp_rate</value>
+    </param>
+    <param>
+      <key>cutoff_freq</key>
+      <value>15000</value>
+    </param>
+    <param>
+      <key>width</key>
+      <value>1000</value>
+    </param>
+    <param>
+      <key>win</key>
+      <value>firdes.WIN_HAMMING</value>
+    </param>
+    <param>
+      <key>beta</key>
+      <value>6.76</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(812, 4)</value>
+>>>>>>> 26621e9a2511402d9578bf5cfcdfe345e41076f8
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>low_pass_filter</key>
+    <param>
+      <key>id</key>
+<<<<<<< HEAD
+      <value>low_pass_filter_1_0</value>
+=======
+      <value>low_pass_filter_1_0_0</value>
+>>>>>>> 26621e9a2511402d9578bf5cfcdfe345e41076f8
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>fir_filter_fff</value>
+    </param>
+    <param>
+      <key>decim</key>
+      <value>2</value>
+    </param>
+    <param>
+      <key>interp</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>gain</key>
+      <value>1</value>
+    </param>
+    <param>
+      <key>samp_rate</key>
+      <value>dsp_rate</value>
+    </param>
+    <param>
+      <key>cutoff_freq</key>
+      <value>15000</value>
+    </param>
+    <param>
+      <key>width</key>
+      <value>1000</value>
+    </param>
+    <param>
+      <key>win</key>
+      <value>firdes.WIN_HAMMING</value>
+    </param>
+    <param>
+      <key>beta</key>
+      <value>6.76</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+<<<<<<< HEAD
+      <value>(812, 4)</value>
+=======
+      <value>(808, 149)</value>
+>>>>>>> 26621e9a2511402d9578bf5cfcdfe345e41076f8
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+<<<<<<< HEAD
+    <key>wxgui_waterfallsink2</key>
+    <param>
+      <key>id</key>
+      <value>wxgui_waterfallsink2_0</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>False</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>complex</value>
+    </param>
+    <param>
+      <key>title</key>
+      <value>Waterfall Plot</value>
+    </param>
+    <param>
+      <key>samp_rate</key>
+      <value>samp_rate</value>
+    </param>
+    <param>
+      <key>baseband_freq</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>dynamic_range</key>
+      <value>100</value>
+    </param>
+    <param>
+      <key>ref_level</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>ref_scale</key>
+      <value>2.0</value>
+    </param>
+    <param>
+      <key>fft_size</key>
+      <value>512</value>
+    </param>
+    <param>
+      <key>fft_rate</key>
+      <value>15</value>
+    </param>
+    <param>
+      <key>average</key>
+      <value>False</value>
+    </param>
+    <param>
+      <key>avg_alpha</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>win</key>
+      <value>None</value>
+    </param>
+    <param>
+      <key>win_size</key>
+      <value></value>
+    </param>
+    <param>
+      <key>grid_pos</key>
+      <value></value>
+    </param>
+    <param>
+      <key>notebook</key>
+      <value></value>
+    </param>
+    <param>
+      <key>freqvar</key>
+      <value>None</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(1230, 570)</value>
+=======
+    <key>blks2_rational_resampler_xxx</key>
+    <param>
+      <key>id</key>
+      <value>rr_stereo_right_1</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>fff</value>
+    </param>
+    <param>
+      <key>decim</key>
+      <value>dsp_rate/2/1000</value>
+    </param>
+    <param>
+      <key>interp</key>
+      <value>audio_rate/1000</value>
+    </param>
+    <param>
+      <key>taps</key>
+      <value>[]</value>
+    </param>
+    <param>
+      <key>fractional_bw</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(1216, 65)</value>
+    </param>
+    <param>
+      <key>_rotation</key>
+      <value>0</value>
+    </param>
+  </block>
+  <block>
+    <key>blks2_rational_resampler_xxx</key>
+    <param>
+      <key>id</key>
+      <value>rr_stereo_right_0</value>
+    </param>
+    <param>
+      <key>_enabled</key>
+      <value>True</value>
+    </param>
+    <param>
+      <key>type</key>
+      <value>fff</value>
+    </param>
+    <param>
+      <key>decim</key>
+      <value>dsp_rate/2/1000</value>
+    </param>
+    <param>
+      <key>interp</key>
+      <value>audio_rate/1000</value>
+    </param>
+    <param>
+      <key>taps</key>
+      <value>[]</value>
+    </param>
+    <param>
+      <key>fractional_bw</key>
+      <value>0</value>
+    </param>
+    <param>
+      <key>_coordinate</key>
+      <value>(1203, 200)</value>
+>>>>>>> 26621e9a2511402d9578bf5cfcdfe345e41076f8
     </param>
     <param>
       <key>_rotation</key>
